@@ -1,0 +1,119 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.profile-card {
+    width: 360px;
+    height: 530px;
+    padding: 20px;
+    background-color: RGB(233, 230, 225);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.name {
+    font-size: 28px;
+    color: #026e34;
+}
+
+
+
+.occupation {
+    font-size: 22px;
+    color: #000000;
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+.description {
+    font-size: 18px;
+    color: #000000;
+    margin-top: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.contact-info {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 900;
+    color: #026e34;
+}
+
+img{
+    border-radius: 50%;
+    padding-top:20px ;
+ 
+}
+
+.website{
+    color: red;
+}
+
+.website:hover{
+    background-color: rgb(176, 176, 176);
+    padding: 5px;
+    border-radius: 5px;
+}
+p a{
+    color: green;
+    text-decoration: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #026e34;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+.upwork a{
+    text-decoration: none;
+    color: white;
+}
+
+.upwork a:hover{
+    text-decoration: none;
+    color:green;
+}
+
+.upwork:hover{
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+}
+
+
+.follow a{
+    text-decoration: none;
+    color: green;
+  
+}
+
+.follow{
+    background-color: #fff;
+    border: 1px solid green;
+}
+
+.follow:hover{
+    background-color:green;
+    
+    border: 1px solid green;
+}
+
+.follow a:hover{
+    color:white;
+}
